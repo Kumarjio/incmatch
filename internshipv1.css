@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+	/*margin: 0;*/
+}
+body{
+	background-color: #f7f8fb;
+	/*margin: 0 auto;*/
+	
+}
+
+
+.formBox{
+		position: relative;
+		top: 0;
+		margin: auto;
+		width: 50%;
+		
+		
+		
+	}
+	input[type='text'], input[type='password'], input[type='email'], button, input[type='url'], input[type='tel'], input[type='number']{
+		position: absolute;
+		color: #000000;
+		display: block;
+		width: auto;
+		box-shadow: 0 0 2px 2px #BDBDBD;
+		border: 2px solid #BDBDBD;
+		height: 36px;
+		font-size: 24px;
+	}
+	
+	textarea{
+		box-shadow: 0 0 2px 2px #BDBDBD;
+		border: 2px solid #BDBDBD;
+		font-family: Slabo, Oswald, Montserrat;
+	}
+	
+	
+	#submit:hover, button:hover{
+		cursor:pointer;
+		box-shadow: 2px 2px 2px 2px grey;
+		background-color: transparent;
+		border: 4px solid #192535;
+		color: #000000;
+	}
+	.submit:hover{
+		cursor:pointer;
+		box-shadow: inset 2px 2px 2px 2px grey;
+		background-color: transparent;
+		border: 4px solid #192535;
+		color: #000000;
+	}
+	.select{
+		width: 11.6em;
+		border:  2px solid #000000;
+		background: rgba(255, 90, 80, 0.6);
+		box-shadow: 4px 5px 5px grey;
+		text-align: center;
+		
+	}
+	#submit{
+		margin-top: .3em;
+	}
+	.error{
+		position: relative;
+		top:30em;
+		margin-left: 30em;
+	}
+	.text{
+		padding: 5em;
+		color: red;
+	}
+	/*.head{
+		border:  2px solid #fffff9;
+		background: #192535;
+		box-shadow: 4px 5px 5px grey;
+		text-align: center;
+		margin-bottom: 3em;
+	}*/
+	.menu{
+		position: relative;
+		display: inline-block;
+		
+		background-color: #192535;
+		color: #febf00;
+		/*padding: 14px 25px;*/
+		text-align: center; 
+		text-decoration: none;
+		
+	
+
+		
+		
+		
+		
+	}
+	a{
+		text-decoration: none;
+		color: #ffffff;
+		/*font-family: Anton, Oswald, "Sans Serif";*/
+		font-family: Slabo, Oswald, Montserrat;
+	}
+	
+	a:hover{
+		text-decoration: underline;
+	}
+	
+	.menu:hover{
+		background-color: #FEBF00;
+		
+	}
+	
+	.footer{
+		position: relative;
+		text-align: center;
+		background-color: #192535;
+		color: #a3a5a8;
+		width: 100%;
+		margin: auto;
+		bottom: 0;
+		overflow: hidden;
+		z-index: 1;
+	}
+	footer{
+		margin: auto;
+	}
+    a{
+		margin-top: 4px;
+	}
+	.jobBoard{
+		background-color: #fffff9;
+		position: relative;
+		color: #000000;
+		border-radius: 5px;
+		display: inline-block;
+		margin: 16px;
+		left: 17em;
+		width: auto;
+		right:0;
+		top: 64px;
+		text-align: center;
+		border: 2px solid #fffff9;
+		padding: 2em;
+		box-shadow: 4px 5px 5px grey;
+		overflow: auto;
+		
+		
+		
+	}
+	.jobInfo, .jobInfos, .jp, .jp2, .buttons, .formBox{
+	
+		opacity: 7%;
+	}
+	.jobInfo{
+		position: relative;
+		display: inline-block;
+		margin: 24px;
+		border: 2px solid #fffff9;
+		box-shadow: 4px 5px 5px grey;
+		padding: .8em;
+	}
+	.footer-inside{
+		text-align: center;
+		color: #a3a5a8;
+	}
+	.employerBox{
+		background-color: #fffff9;
+		position: relative;
+		color: #000000;
+		border-radius: 15px;
+		display: inline-block;
+		margin: 16px;
+		left: 8.5em;
+		width: 250px;
+		right:0;
+		top: 64px;
+		text-align: center;
+		border: 2px solid #fffff9;
+		box-shadow: 4px 5px 5px grey;
+		
+	}
+	/*.jobInfos{
+		padding: 2em;
+		position: relative;
+		display: inline-block;
+		border: 2px solid #fffff9;
+		width: auto;
+		text-align: center;
+		background-color: #ffffff;
+		border-radius: 5px;
+		/*left: 6.5em;*/
+		/*color: #000000;
+		box-shadow: 4px 5px 5px grey;
+		
+		
+	}*/
+	/*.buttons{
+		padding: 2em;
+		position: relative;
+		display: inline-block;
+		border: 2px solid #192533;
+		width: 15%;
+		text-align: center;
+		background-color: #ffffff;
+		border-radius: 5px;
+		
+		color: #000000;
+		box-shadow: 4px 5px 5px grey;
+		
+	}*/
+	inputBox{
+		width: 30%;
+		margin: auto;
+	}
+	
+	
+	label, input[type='submit'], p, h1, h2, h3, h4, h5, input{
+		font-family: Slabo, Oswald, Montserrat;
+		font-size: 18px;
+		color: #000000;
+	}
+	textarea{
+		width: 65%;
+	}
+	 .required:after{
+	  	content:" *"; 
+	  	color: #e32;
+	  }
+	  /*.inputBox{
+		width: 30%;
+		margin: auto;
+		
+	}*/
+	
+	.sidebyside{
+		display: inline-block;
+	}
+	/*.container{
+		border: 2px solid #fffff9;
+		width: 20em;
+		height: 20em;
+		display: inline-block;
+		box-shadow: 4px 5px 5px grey;
+		padding: 2em;
+		
+	}
+	.container:before{
+		content: "JOB SEARCH";
+	}*/
+	.box{
+		width: 90%;
+		display: inline-block;
+		margin-left: 5em;
+		overflow: auto;
+		z-index: 1;
+		
+		box-shadow: 4px 5px 5px grey;
+		
+	}
+	/*div.jobInfos > a{
+		padding: 2em;
+	}*/
+	.containers {
+ 	 margin: auto;
+ 	 width: 100%;
+	}
+	.underline{
+		border-bottom: 2px solid grey;
+		width: 100%;
+	 	position: relative;
+	 	
+	}
+.shadow{
+	color: #192535;
+	
+	/*text-shadow: -1px 0 #263238, 0 1px black, 1px 0 black, 0 -1px #263238;*/
+}
+	
+	/**********************************************************************************************************************************************************************************************************************************
+	Making responsive design
+	**********************************************************************************************************************************************************************************************************************************/
+	@media screen and (min-width: 300px) and (max-width: 640px){
+		.page_container{
+		
+			margin: 0;
+		}
+		h1{
+			font-size: 18px;
+			margin: 0;
+		}
+		
+		
+		}
+		.main{
+			margin: 0 10% 5% 0;
+		}
+		.jobInfo{
+		width: 75%;
+		}
+}
+	@media screen and (min-width: 1000px){
+	
+	
+	}
+	@media screen and (min-width: 1145px){
+		h1{
+			margin: 0 0 0 30%;
+		}
+	}
+	@media screen and (min-width: 1350px){
+		
+	
+	
+	}
+@media screen and (min-width: 1450px){
+	
+	
+}
+	@media screen and (min-width: 1550px){
+		h1{
+			margin: 0 0 5% 40%;
+		}
+		.buttons{
+			display: inline-block;
+			width: 25%;
+			left: 0;
+		}
+	}
+	@media screen and (min-width: 1600px){
+	
+	
+}
+	

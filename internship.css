@@ -1,0 +1,410 @@
+/************************************************************************************************************************************************
+This is the page loading css
+************************************************************************************************************************************************/
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+/*********************************************************************************************************************
+regular css
+*********************************************************************************************************************/
+html{
+    margin:0;
+    padding: 0;
+
+
+body{
+	background-color: #f7f8fb;
+	margin:0;
+    padding: 0;
+
+	
+}
+
+.formBox{
+		position: relative;
+		top: 0;
+		margin: auto;
+		width: 50%;
+		
+		
+		
+	}
+	input[type='text'], input[type='password'], input[type='email'], button, input[type=url], input[type=tel], input[type=number]{
+		position: absolute;
+		color: #000000;
+		display: block;
+		width: 300px;
+		box-shadow: 0 0 2px 2px #BDBDBD;
+		border: 2px solid #BDBDBD;
+		height: 36px;
+		font-size: 24px;
+	}
+	textarea{
+		box-shadow: 0 0 2px 2px #BDBDBD;
+		border: 2px solid #BDBDBD;
+	}
+	
+	
+	#submit:hover, button:hover{
+		cursor:pointer;
+		box-shadow: 2px 2px 2px 2px grey;
+		background-color: transparent;
+		border: 4px solid #192535;
+		color: #000000;
+	}
+	.submit:hover{
+		cursor:pointer;
+		box-shadow: inset 2px 2px 2px 2px grey;
+		background-color: transparent;
+		border: 4px solid #192535;
+		color: #000000;
+	}
+	.select{
+		width: 11.6em;
+		border:  2px solid #000000;
+		background: rgba(255, 90, 80, 0.6);
+		box-shadow: 4px 5px 5px grey;
+		text-align: center;
+		
+	}
+	#submit{
+		margin-top: .3em;
+	}
+	.error{
+		position: relative;
+		top:30em;
+		margin-left: 30em;
+	}
+	.text{
+		padding: 5em;
+		color: red;
+	}
+	.head{
+		
+		background: #192535;
+		text-align: center;
+		
+		
+	}
+	.menu{
+		position: relative;
+		display: inline-block;
+		margin: auto;
+		background-color: #192535;
+		color: #febf00;
+		/*padding: 14px 25px;*/
+		text-align: center; 
+		text-decoration: none;
+		
+	
+
+		
+		
+		
+		
+	}
+	a{
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Anton, "Indie Flower", Lobster;
+	}
+	
+	a:hover{
+		text-decoration: underline;
+	}
+	
+	.menu:hover{
+		background-color: #FEBF00;
+		
+	}
+	
+	.footer{
+		
+		text-align: center;
+		background-color: #192535;
+		color: #a3a5a8;
+		
+	}
+	footer{
+		
+	}
+    a{
+		margin-top: 4px;
+	}
+	.jobBoard{
+		background-color: #fffff9;
+		position: relative;
+		color: #000000;
+		border-radius: 5px;
+		display: inline-block;
+		margin: 16px;
+		left: 17em;
+		width: auto;
+		right:0;
+		top: 64px;
+		text-align: center;
+		border: 2px solid #fffff9;
+		padding: 2em;
+		box-shadow: 4px 5px 5px grey;
+		overflow: auto;
+		
+		
+		
+	}
+	.jobInfo{
+		position: relative;
+		display: inline-block;
+		margin: 24px;
+		border: 2px solid #fffff9;
+		box-shadow: 4px 5px 5px grey;
+		padding: .8em;
+	}
+	.footer-inside{
+		text-align: center;
+		color: #a3a5a8;
+	}
+	.employerBox{
+		background-color: #fffff9;
+		position: relative;
+		color: #000000;
+		border-radius: 15px;
+		display: inline-block;
+		margin: 16px;
+		left: 8.5em;
+		width: 250px;
+		right:0;
+		top: 64px;
+		text-align: center;
+		border: 2px solid #fffff9;
+		box-shadow: 4px 5px 5px grey;
+		
+	}
+	.jobInfos{
+		padding: 2em;
+		position: relative;
+		display: inline-block;
+		border: 2px solid #fffff9;
+		width: auto;
+		text-align: center;
+		background-color: #ffffff;
+		border-radius: 5px;
+		left: 6.5em;
+		color: #000000;
+		box-shadow: 4px 5px 5px grey;
+		margin: 1em;
+		
+	}
+	.buttons{
+		padding: 2em;
+		position: relative;
+		display: inline-block;
+		border: 2px solid #fffff9;
+		width: 15%;
+		text-align: center;
+		background-color: #ffffff;
+		border-radius: 5px;
+		
+		color: #000000;
+		box-shadow: 4px 5px 5px grey;
+		
+	}
+	inputBox{
+		width: 30%;
+		margin: auto;
+	}
+	
+	p, h1, h2, h3, h4, h5{
+		font-family: sans-serif, 'Montser rat';
+	}
+	label, input[type='submit']{
+		font-family: Anton, Oswald;
+		font-size: 18px;
+		color: #000000;
+	}
+	textarea{
+		width: 65%;
+	}
+	 .required:after{
+	  	content:" *"; 
+	  	color: #e32;
+	  }
+	  /*.inputBox{
+		width: 30%;
+		margin: auto;
+		
+	}*/
+	
+	.sidebyside{
+		display: inline-block;
+	}
+	.container{
+		border: 2px solid #fffff9;
+		width: 20em;
+		height: 20em;
+		display: inline-block;
+		box-shadow: 4px 5px 5px grey;
+		padding: 2em;
+		
+	}
+	.container:before{
+		content: "JOB SEARCH";
+	}
+	.box{
+		width: 90%;
+		display: inline-block;
+		margin-left: 5em;
+		overflow: auto;
+		z-index: 1;
+		
+		box-shadow: 4px 5px 5px grey;
+		
+	}
+	div.jobInfos > a{
+		padding: 2em;
+	}
+	.containers {
+ 	 margin: auto;
+ 	 width: 100%;
+}
+	
+	.jobs{
+		border-top: 2px solid grey;
+		border-bottom: 2px solid grey;
+		display: block;
+	}
+	/**********************************************************************************************************************************************************************************************************************************
+	Making responsive design
+	**********************************************************************************************************************************************************************************************************************************/
+	@media screen and (min-width: 360px) and (max-width: 640px){
+	
+		h1, h2{
+			//display: none;
+			font-size: 12px;
+			width: 90%;
+			left: 0;
+			margin: 0 auto;
+		}
+	}
+	
+}
+@media screen and (min-width: 645) and (max-width: 999px){
+
+	h1, h2{
+		font-size: 18px;
+	}
+}
+	
+	@media screen and (min-width: 1000px){
+	
+	
+	}
+	@media screen and (min-width: 1145px){
+		h1{
+			margin: 0 0 0 30%;
+		}
+	}
+	@media screen and (min-width: 1350px){
+		
+	
+	
+	}
+@media screen and (min-width: 1450px){
+	
+	
+}
+	@media screen and (min-width: 1550px){
+		h1{
+			margin: 0 0 5% 40%;
+		}
+		.buttons{
+			display: inline-block;
+			width: 25%;
+			left: 0;
+		}
+	}
+	@media screen and (min-width: 1600px){
+	
+	
+}
+
+
+/*
+FROM SITE HEADER.  SHOULD APPLY TO ALL PAGES SO I PUT IT HERE
+*/
+@media screen and (min-width: 360px) and (max-width: 999px){
+
+	
+	h1{
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 1000px){
+
+	
+	img.image{
+		left: 0;
+		margin: 0;
+		width: auto;
+		
+		
+	}
+	.menu{
+		border-right: none;
+		border-left: none;
+		width: 10em;
+		margin: 0;
+		left: 0;
+	}
+	
+	.sb{
+		font-size: 36px;
+	}
+
+}
